@@ -6,7 +6,7 @@ class OpenSpaceEvent extends React.Component {
     render() {
 
         let location = this.props.event.type.split(" ")[0];
-        //console.log(location);
+
         let event = this.props.event;
         let eventOpen1 = this.props.eventOpen1;
         let eventOpen2 = this.props.eventOpen2;
@@ -15,8 +15,6 @@ class OpenSpaceEvent extends React.Component {
         let eventEnd   = getTimeFromDate(getEventDate(eventOpen2.end_time, event.day));
         let timeString = eventStart + " - " + eventEnd;
 
-        //console.log(event.start_time, event.day);
-        //console.log(getEventDate(event.start_time, event.day));
 
         return (
 

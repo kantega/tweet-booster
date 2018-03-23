@@ -3,9 +3,7 @@ import {ReactInterval} from "react-interval";
 import Tweet from "./Tweet";
 import PictureTweet from "./PictureTweet";
 import EventScheduleDisplay from "./EventScheduleDisplay"
-// import io from "socket.io";
 import './index.css';
-import './style/infosidebar.css';
 
 class TweetController extends React.Component {
     constructor(props) {
