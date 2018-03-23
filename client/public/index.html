@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <title>Kantega Tweet Booster</title>
+</head>
+<body>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+    (function () {
+        const socket = io();
+        window.tweets = [];
+        window.schedule = null;
+
+        socket.on('tweet', function (tweet) {
+            window.tweets.push(tweet);
+        });
+    })();
+</script>
+
+<script>
+    (function () {
+        window.version = Date.now();
+
+        const checkVersion = function () {
+            fetch("/version")
+                .then(response => response.json())
+                .then(response => {
+                    console.log("Server version: " + response.version);
+                    console.log("Client version: " + version);
+
+                    if (window.version < response.version) {
+                        console.log("Client is old, reloading");
+                        window.location = window.location;
+                    } else {
+                        console.log("Client is up to date");
+                    }
+                })
+        };
+        setInterval(checkVersion, 30000);
+    })();
+</script>
+<div id="root"></div>
+<div class="footer">https://tweet-booster.herokuapp.com &mdash;
+    <i>from</i>
+    <img src="/kantega_logo.svg" class="kantega-logo" alt="Kantega"/>
+    <i>with love &hearts;</i>
+</div>
+</body>
+</html>

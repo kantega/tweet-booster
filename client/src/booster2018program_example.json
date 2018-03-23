@@ -1,0 +1,281 @@
+[
+	{
+		"day": 3,
+		"events": [
+			{
+				"title": "Registration",
+				"location": "Reception Area",
+				"author": "Booster2018",
+				"time": "08:00-09:00",
+				"time_start": "08:00",
+				"time_end": "09:00"
+			},
+			{
+				"title": "Welcome From The Organizers",
+				"location": "Dragefjellet",
+				"author": "Booster2018",
+				"time": "09:00-09:15",
+				"time_start": "09:00",
+				"time_end": "09:15"
+			},
+			{
+				"title": "Keynote: Artificial Intelligence, Artificial Consciousness and Artificial Mortality",
+				"location": "Dragefjellet",
+				"author": "Einar Duenger Bohn",
+				"time": "09:15-10:15",
+				"time_start": "09:15",
+				"time_end": "10:15"
+			},
+			{
+				"title": "Lightning Talks",
+				"location": "Dragefjellet, Teatergaten, Sydneshaugen",
+				"author": "Various",
+				"time": "10:30-11:15",
+				"time_start": "10:30",
+				"time_end": "11:15"
+			},
+			{
+				"title": "Coffee Break",
+				"location": "Downstairs",
+				"author": "Booster2018",
+				"time": "11:15-11:30",
+				"time_start": "11:15",
+				"time_end": "11:30"
+			},
+			{
+				"title": "Lightning Talks",
+				"location": "Dragefjellet, Teatergaten, Sydneshaugen",
+				"author": "Various",
+				"time": "11:30-12:15",
+				"time_start": "11:30",
+				"time_end": "12:15"
+			},
+			{
+				"title": "Lunch",
+				"location": "Restaurant",
+				"author": "Booster2018",
+				"time": "12:15-13:30",
+				"time_start": "12:15",
+				"time_end": "13:30"
+			},
+			{
+				"title": "Workshops",
+				"location": "Galgebakken, Tårnplass, Dragefjellet, Muséplass, Teatergaten, Sydneshaugen, Hødden",
+				"author": "Various",
+				"time": "13:30-15:00",
+				"time_start": "13:30",
+				"time_end": "15:00"
+			},
+			{
+				"title": "Coffee Break",
+				"location": "Downstairs",
+				"author": "Booster2018",
+				"time": "15:00-15:15",
+				"time_start": "15:00",
+				"time_end": "15:15"
+			},
+			{
+				"title": "Workshops",
+				"location": "Galgebakken, Tårnplass, Dragefjellet, Muséplass, Teatergaten, Sydneshaugen, Hødden", 
+				"author": "Various",
+				"time": "15:15-16:45",
+				"time_start": "15:15",
+				"time_end": "16:45"
+			},
+			{
+				"title": "Conference Dinner",
+				"location": "Galleri Nygaten",
+				"author": "Booster2018",
+				"time": "19:00-00:00",
+				"time_start": "19:00",
+				"time_end": "00:00"
+			}
+		]
+	},
+	{
+		"day": 4,
+		"events": [
+			{
+				"title": "Registration",
+				"location": "Reception Area",
+				"author": "Booster2018",
+				"time": "08:00-09:00",
+				"time_start": "08:00",
+				"time_end": "09:00"
+			},
+			{
+				"title": "Workshops",
+				"location": "Galgebakken, Tårnplass, Dragefjellet, Muséplass, Teatergaten, Strangehagen, Sydneshaugen, Hødden",
+				"author": "Various",
+				"time": "09:00-10:30",
+				"time_start": "09:00",
+				"time_end": "10:30"
+			},
+			{
+				"title": "Coffee Break",
+				"location": "Downstairs",
+				"author": "Booster2018",
+				"time": "10:30-10:45",
+				"time_start": "10:30",
+				"time_end": "10:45"
+			},
+			{
+				"title": "Workshops",
+				"location": "Galgebakken, Tårnplass, Dragefjellet, Muséplass, Teatergaten, Strangehagen, Sydneshaugen, Hødden",
+				"author": "Various",
+				"time": "10:45-12:15",
+				"time_start": "10:45",
+				"time_end": "12:15"
+			},
+			{
+				"title": "Lunch",
+				"location": "Restaurant",
+				"author": "Booster2018",
+				"time": "12:15-13:30",
+				"time_start": "12:15",
+				"time_end": "13:30"
+			},
+			{
+				"title": "Introduction to Open Spaces",
+				"location": "Dragefjellet and more",
+				"author": "Various",
+				"time": "13:30-14:00",
+				"time_start": "13:30",
+				"time_end": "14:00"
+			},
+			{
+				"title": "Open Spaces 1",
+				"location": "Dragefjellet and more",
+				"author": "Various",
+				"time": "14:00-14:45",
+				"time_start": "14:00",
+				"time_end": "14:45"
+			},
+			{
+				"title": "Open Spaces 2",
+				"location": "Dragefjellet and more",
+				"author": "Various",
+				"time": "14:45-15:30",
+				"time_start": "14:45",
+				"time_end": "15:30"
+			},
+			{
+				"title": "Coffee Break",
+				"location": "Downstairs",
+				"author": "Booster2018",
+				"time": "15:30-15:45",
+				"time_start": "15:30",
+				"time_end": "15:45"
+			},
+			{
+				"title": "Short Talks",
+				"location": "Tårnplass, Dragefjellet, Muséplass, Hødden", 
+				"author": "Various",
+				"time": "15:45-16:15",
+				"time_start": "15:45",
+				"time_end": "16:15"
+			},
+			{
+				"title": "Coffee Break",
+				"location": "Tårnplass, Dragefjellet, Muséplass, Hødden", 
+				"author": "Booster2018",
+				"time": "16:15-16:30",
+				"time_start": "16:15",
+				"time_end": "16:30"
+			},
+			{
+				"title": "Short Talks",
+				"location": "Tårnplass, Dragefjellet, Muséplass, Hødden", 
+				"author": "Various",
+				"time": "16:30-17:00",
+				"time_start": "16:30",
+				"time_end": "17:00"
+			},
+			{
+				"title": "Speaker's Dinner",
+				"location": "Nøsteboden",
+				"author": "Booster2018",
+				"time": "19:00-00:00",
+				"time_start": "19:00",
+				"time_end": "00:00"
+			}
+		]
+	},
+	{
+		"day": 5,
+		"events": [
+			{
+				"title": "Registration",
+				"location": "Reception Area",
+				"author": "Booster2018",
+				"time": "08:00-09:00",
+				"time_start": "08:00",
+				"time_end": "09:00"
+			},
+			{
+				"title": "Workshops",
+				"location": "Galgebakken, Tårnplass, Dragefjellet, Muséplass, Teatergaten, Strangehagen, Sydneshaugen, Hødden",
+				"author": "Various",
+				"time": "09:00-10:30",
+				"time_start": "09:00",
+				"time_end": "10:30"
+			},
+			{
+				"title": "Coffee Break",
+				"location": "Downstairs",
+				"author": "Booster2018",
+				"time": "10:30-10:45",
+				"time_start": "10:30",
+				"time_end": "10:45"
+			},
+			{
+				"title": "Workshops",
+				"location": "Galgebakken, Tårnplass, Dragefjellet, Muséplass, Teatergaten, Strangehagen, Sydneshaugen, Hødden",
+				"author": "Various",
+				"time": "10:45-12:15",
+				"time_start": "10:45",
+				"time_end": "12:15"
+			},
+			{
+				"title": "Lunch",
+				"location": "Restaurant",
+				"author": "Booster2018",
+				"time": "12:15-13:30",
+				"time_start": "12:15",
+				"time_end": "13:30"
+			},
+			{
+				"title": "Workshops",
+				"location": "Galgebakken, Tårnplass, Dragefjellet, Muséplass, Teatergaten, Strangehagen, Sydneshaugen, Hødden",
+				"author": "Various",
+				"time": "13:30-15:00",
+				"time_start": "13:30",
+				"time_end": "15:00"
+			},
+			{
+				"title": "Coffee Break",
+				"location": "Downstairs",
+				"author": "Booster2018",
+				"time": "15:00-15:15",
+				"time_start": "15:00",
+				"time_end": "15:15"
+			},
+			{
+				"title": "Keynote: Unleash Your Play Brain",
+				"location": "Dragefjellet", 
+				"author": "Portia Tung",
+				"time": "15:15-16:15",
+				"time_start": "15:15",
+				"time_end": "16:15"
+			},
+			{
+				"title": "See You Next Year",
+				"location": "Dragefjellet",
+				"author": "Booster2018",
+				"time": "16:15-16:30",
+				"time_start": "16:15",
+				"time_end": "16:30"
+			}
+		]
+	}
+]

@@ -1,0 +1,62 @@
+
+/*.infoSideBar {*/
+    /*border: thin gray solid;*/
+    /*margin: 5px;*/
+    /*padding: 10px;*/
+    /*border-radius: 0.5em;*/
+    /*background-color: white;*/
+    /*height: 900px;*/
+    /*width: 510px;*/
+
+    /*text-align: justify;*/
+/*}*/
+
+/*.infoSideBar #clock {*/
+    /*!*border: thin gray solid;*!*/
+    /*!*border-radius: 20px;*!*/
+    /*!*background-color: whitesmoke;*!*/
+
+    /*!*margin: 5px;*!*/
+    /*!*padding: 10px;*!*/
+
+    /*font-size: 50px;*/
+    /*font-weight: bold;*/
+    /*text-align: center;*/
+/*}*/
+
+/*.infoSideBar #clockText {*/
+    /*font-size: 20px;*/
+    /*text-align: center;*/
+/*}*/
+
+/*.infoSideBar #hashtags {*/
+    /*font-size: 20px;*/
+/*}*/
+
+/*.infoSideBar #currentEvent {*/
+    /*!*border: thin gray solid;*!*/
+    /*!*border-radius: 20px;*!*/
+    /*!*background-color: whitesmoke;*!*/
+
+    /*!*margin: 5px;*!*/
+    /*!*padding: 5px;*!*/
+/*}*/
+
+/*.infoSideBar #currentText {*/
+    /*font-size: 20px;*/
+    /*text-align: center;*/
+/*}*/
+
+/*.infoSideBar #nextEvent {*/
+    /*!*border: thin gray solid;*!*/
+    /*!*border-radius: 20px;*!*/
+    /*!*background-color: whitesmoke;*!*/
+
+    /*!*margin: 5px;*!*/
+    /*!*padding: 5px;*!*/
+/*}*/
+
+/*.infoSideBar #nextText {*/
+    /*font-size: 20px;*/
+    /*text-align: center;*/
+/*}*/

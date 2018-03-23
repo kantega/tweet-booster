@@ -1,0 +1,411 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    /*overflow: hidden;*/
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /*background-color: #efedee;*/
+    /*background-color: #A5ECDE; !* booster colour *!*/
+    background-color: #d7ece9; /* booster colour pale */
+    /*background-color: white;*/
+}
+
+.App {
+    /*margin-top: 7em;*/
+}
+
+/*THREE COLUMNS: Outer level of the view*/
+
+.flexCol {
+    flex: 1;
+}
+
+.flexColCon{
+    margin: 0 auto;
+    width: fit-content;
+    overflow: hidden;
+}
+
+
+.flexContainer {
+    display: flex;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: min-content;
+}
+
+/*TWEETS (OUTER)*/
+.tweet {
+    border: thin #a8a8a8 solid;
+    background-color: white;
+}
+
+.tweet , .tweetPlaceholder{
+    padding: 10px;
+    border-radius: 0.5em;
+    grid-column: 1;
+    height: 280px;
+    width: 510px;
+    margin: 1em;
+}
+
+.pictureTweet {
+    border-radius: 0.5em;
+
+    border: thin #a8a8a8 solid;
+    overflow: hidden;
+    padding: 0;
+    background-color: #A5ECDE;
+}
+
+
+.pictureTweetSize {
+    height: 635px;
+    width: 530px;
+    margin: 1em;
+}
+
+/*TWEET CONTENT*/
+
+
+.tweetPlaceholder, .pictureTweetPlaceholder {
+    background-color: #fff;
+    opacity: 0.2;
+}
+
+.tweetimg {
+    background-size: cover;
+    height: 335px;
+    width: 530px;
+}
+
+.userBox {
+    height: 100px;
+    width: 508px;
+    margin-bottom: 15px;
+}
+
+
+.userIcon {
+    border-radius: 50%;
+    float: left;
+    margin: 15px 0 0 15px;
+    width: 70px;
+}
+
+.twitterLogo {
+    float: right;
+    margin: 15px 10px 0 0;
+    width: 43px;
+    height: 43px;
+    background-color: #00aced;
+    clip-path: polygon(71.3542% 28.4722%, 67.9688% 25.8681%, 65.2778% 24.8264%, 62.6736% 24.3924%, 59.7222% 24.6528%, 57.0313% 25.2604%, 55.3819% 26.1285%, 53.559% 27.4306%, 52.0833% 28.9931%, 51.0417% 30.4688%, 50.1736% 32.0313%, 49.566% 34.0278%, 49.0451% 35.9375%, 49.1319% 37.5%, 49.3056% 38.6285%, 49.4792% 39.4965%, 49.6528% 40.4514%, 46.875% 40.1042%, 42.7951% 39.4965%, 39.2361% 38.3681%, 35.8507% 37.066%, 32.7257% 35.4167%, 30.2951% 33.7674%, 27.6042% 31.7708%, 25.434% 29.6007%, 24.2188% 28.2986%, 23.0903% 26.9097%, 21.9618% 29.2535%, 21.3542% 31.5104%, 21.3542% 34.2882%, 22.0486% 37.5%, 23.3507% 40.4514%, 24.9132% 42.2743%, 26.2153% 43.4028%, 26.9097% 44.0104%, 25.6944% 44.0104%, 24.4792% 43.75%, 22.8299% 43.2292%, 21.2674% 42.3611%, 21.1806% 43.8368%, 21.441% 45.1389%, 21.9618% 46.9618%, 23.0035% 49.0451%, 24.3056% 50.8681%, 26.3889% 52.8646%, 28.0382% 53.9931%, 29.6007% 54.8611%, 30.2951% 55.0347%, 31.25% 55.1215%, 30.5556% 55.3819%, 29.6007% 55.5556%, 28.6458% 55.5556%, 27.6042% 55.5556%, 26.4757% 55.5556%, 25.7813% 55.2951%, 25.8681% 56.0764%, 26.8229% 57.8125%, 28.2118% 59.8958%, 30.1215% 61.6319%, 32.4653% 63.1076%, 34.7222% 63.8889%, 36.6319% 64.3229%, 37.5% 64.3229%, 36.8924% 64.9306%, 35.9375% 65.625%, 33.7674% 67.0139%, 29.6007% 68.5764%, 24.8264% 69.6181%, 22.0486% 69.7917%, 19.6181% 69.7049%, 18.8368% 69.5313%, 21.441% 71.2674%, 26.0417% 73.2639%, 30.7292% 74.566%, 36.6319% 75.3472%, 41.5799% 75.3472%, 47.0486% 74.4792%, 51.2153% 73.3507%, 55.2951% 71.6146%, 59.9826% 68.5764%, 63.3681% 65.7118%, 66.2326% 62.6736%, 69.0104% 59.0278%, 71.441% 54.2535%, 73.3507% 49.4792%, 74.4792% 44.7049%, 74.9132% 41.1458%, 74.9132% 37.5%, 76.3021% 36.2847%, 78.125% 34.5486%, 80.0347% 32.4653%, 81.25% 30.5556%, 79.3403% 31.3368%, 77.1701% 32.0313%, 75.6944% 32.2917%, 74.3056% 32.3785%, 76.0417% 31.0764%, 77.2569% 29.9479%, 78.125% 28.6458%, 78.9931% 27.0833%, 79.4271% 25.5208%, 76.4757% 27.0833%, 73.5243% 28.125%);
+
+}
+
+.userName {
+    padding: 25px 0 0 10px;
+    display: block;
+    width: 300px;
+    /*height: 45px;*/
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.userHandle {
+    color: dimgray;
+    padding: 0 0 0 10px;
+    display: block;
+    width: 300px;
+    /*height: 55px;*/
+    float: left;
+    font-size: 18px;
+}
+
+.tweetText {
+    padding: 5px 20px 5px 20px ;
+    font-size: 20px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.timeStamp {
+    color: #697882;
+    padding-left: 15px;
+}
+
+.likesAndRetweets {
+    color: #697882;
+    margin: 10px;
+    height: 30px;
+    /*width: 488px;*/
+}
+
+.fl {
+    float: left;
+}
+
+
+.fr {
+    float: right;
+}
+
+.likes {
+    margin: 5px 15px 0 0;
+}
+
+.retweets {
+    margin-top: 5px;
+}
+
+.talkingIcon {
+    width: 25px;
+    height: 25px;
+    margin-right: 3px;
+    background-color: #637783;
+    clip-path: polygon(33.4201% 8.76736%, 60.4167% 8.50694%, 60.5903% 14.3229%, 34.8958% 14.4965%, 28.9931% 16.6667%, 23.0903% 20.8333%, 18.6632% 26.1285%, 15.625% 32.3785%, 14.4097% 40.5382%, 14.3229% 46.1806%, 15.7986% 52.3438%, 19.8785% 58.6806%, 25.2604% 63.0208%, 30.2951% 66.059%, 36.5451% 67.7951%, 41.059% 68.1424%, 46.0069% 68.0556%, 46.441% 85.0694%, 75.0868% 66.2326%, 82.2049% 57.9861%, 85.8507% 51.1285%, 87.4132% 45.8333%, 87.1528% 40.191%, 86.5451% 33.941%, 84.2014% 28.2118%, 77.5174% 21.1806%, 73.7847% 17.7083%, 68.75% 15.2778%, 63.5417% 14.3229%, 60.5035% 14.3229%, 59.375% 11.9792%, 60.4167% 8.59375%, 66.4931% 8.94097%, 75.9549% 12.4132%, 81.5104% 16.5799%, 86.4583% 21.6146%, 89.4965% 26.7361%, 91.5799% 32.2917%, 92.9688% 39.8438%, 92.5347% 45.8333%, 91.059% 51.8229%, 88.1076% 58.2465%, 83.5069% 65.2778%, 78.2986% 70.1389%, 72.5694% 74.4792%, 64.4965% 80.3819%, 57.8125% 84.7222%, 51.8229% 87.934%, 46.0938% 92.4479%, 44.7917% 93.2292%, 42.9688% 93.316%, 41.1458% 92.6215%, 40.191% 91.8403%, 40.625% 73.3507%, 33.7674% 72.8299%, 27.9514% 71.0069%, 24.6528% 69.5313%, 19.3576% 65.7118%, 16.9271% 63.2813%, 14.2361% 60.4167%, 10.2431% 53.3854%, 8.50694% 47.1354%, 8.33333% 40.2778%, 9.28819% 33.941%, 11.5451% 26.8229%, 16.1458% 18.9236%, 21.0069% 15.1042%, 26.8229% 11.4583%, 30.4688% 9.63542%);
+}
+
+.likeIcon {
+    width: 25px;
+    height: 25px;
+    margin-right: 3px;
+    background-color: #637783;
+    clip-path: polygon(52.691% 23.1771%, 56.684% 17.9688%, 61.8924% 13.8889%, 67.0139% 11.5451%, 72.9167% 10.8507%, 77.6042% 11.1111%, 82.9861% 12.7604%, 87.066% 15.3646%, 90.5382% 18.5764%, 93.0556% 22.0486%, 95.4861% 26.5625%, 96.0938% 28.9063%, 96.441% 33.1597%, 96.441% 38.0208%, 96.2674% 44.0104%, 95.2257% 47.8299%, 93.4896% 52.7778%, 88.2813% 62.5%, 83.8542% 68.75%, 78.2118% 76.5625%, 72.0486% 82.7257%, 65.9722% 87.1528%, 61.1979% 90.4514%, 56.9444% 92.6215%, 53.2986% 93.316%, 50.5208% 92.7951%, 42.1875% 88.4549%, 31.8576% 79.9479%, 22.4826% 69.8785%, 16.2326% 60.2431%, 12.8472% 53.7326%, 10.7639% 46.9618%, 9.28819% 38.7153%, 9.89583% 30.5556%, 11.3715% 24.566%, 15.191% 18.6632%, 20.2257% 14.5833%, 24.8264% 11.8056%, 30.816% 10.5903%, 36.5451% 10.8507%, 40.1042% 11.7188%, 44.4444% 14.0625%, 48.9583% 18.0556%, 52.9514% 23.2639%, 56.5104% 27.2569%, 55.4688% 30.1215%, 53.9063% 31.0764%, 51.5625% 31.3368%, 49.9132% 29.7743%, 48.7847% 27.3438%, 44.0104% 21.7882%, 40.1042% 18.6632%, 36.7188% 17.2743%, 32.2917% 16.4931%, 28.7326% 16.7535%, 24.3056% 18.5764%, 20.3993% 21.3542%, 17.2743% 24.9132%, 15.0174% 29.9479%, 14.4965% 35.2431%, 15.0174% 40.5382%, 16.059% 45.4861%, 18.6632% 52.6042%, 22.8299% 60.0694%, 26.5625% 65.0174%, 30.7292% 71.0069%, 35.4167% 75.8681%, 38.8021% 79.0799%, 43.8368% 82.8125%, 49.566% 86.5451%, 52.0833% 87.5868%, 54.7743% 87.7604%, 58.1597% 86.0243%, 64.0625% 81.684%, 70.1389% 75.8681%, 74.7396% 71.441%, 80.0347% 65.1042%, 85.1563% 57.1181%, 88.4549% 50.6076%, 90.3646% 44.8785%, 91.4931% 39.7569%, 91.2326% 32.6389%, 90.1042% 28.0382%, 86.9792% 23.1771%, 83.2465% 19.8785%, 79.4271% 17.1875%, 73.3507% 16.1458%, 69.6181% 16.4931%, 65.5382% 17.8819%, 63.3681% 19.4444%, 60.6771% 21.875%, 57.5521% 25.7813%, 56.1632% 27.8646%);
+}
+
+.namepara {
+    margin: 0;
+    width: fit-content;
+    padding: 0.5em;
+    background-color: pink;
+}
+
+.textpara{
+    background-color: gray;
+    margin: 0 0 0 1em;
+    padding: 0.5em;
+    display: block;
+    width: fit-content;
+}
+
+
+.pictureTweet .tweet{
+    margin: 0;
+    border-radius: 0;
+    border: none;
+}
+
+
+
+/*FRA INFOSIDEBAR CSS*/
+
+.infoSideBarContent {
+    height: 100%;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    flex-direction: column;
+}
+
+.infoSideBarContent img{
+    margin-top: -1.5em;
+}
+
+.infoSideBar {
+    border: thin gray solid;
+    margin: 1em;
+    padding: 10px;
+    border-radius: 0.5em;
+    background-color: white;
+    height: 950px;
+    width: 510px;
+
+    text-align: justify;
+}
+
+.clockAndHashtags {
+    margin-top: -2em;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+}
+
+#clock {
+    flex: 1;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    color: #505050;
+}
+
+#clockText {
+    font-size: 20px;
+    text-align: center;
+}
+
+#hashtags {
+    flex: 1;
+    padding-bottom: 0.5em;
+}
+
+#hashtags p {
+    font-weight: bold;
+    color: gray;
+    font-size: 20px;
+    text-align: right;
+    margin: 0.3em 0;
+}
+
+#currentEvent {
+    flex: 1;
+    /*background-color: green;*/
+    /*border: thin gray solid;*/
+    /*border-radius: 20px;*/
+    /*background-color: whitesmoke;*/
+
+    /*margin: 5px;*/
+    padding: 0 1em;
+}
+
+
+#nextEvent {
+    flex: 1;
+    padding: 0 1em;
+
+    /*background-color: blue;*/
+    /*border: thin gray solid;*/
+    /*border-radius: 20px;*/
+    /*background-color: whitesmoke;*/
+
+    /*margin: 5px;*/
+    /*padding: 5px;*/
+}
+
+
+.event {
+    margin: 0 1em;
+    height: 100%;
+    overflow: hidden;
+}
+
+.eventFlex {
+    flex: 1;
+    max-height: 570px;
+}
+
+.eventTimeSpan {
+    float: right;
+}
+
+#currentText, #nextText {
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #d7ece9;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.event {
+    height: 100%;
+    overflow: hidden;
+}
+
+.time {
+    display: inline-block;
+    float:right;
+}
+
+ #nextEvent {
+     flex: 1;
+
+     /*background-color: blue;*/
+    /*border: thin gray solid;*/
+    /*border-radius: 20px;*/
+    /*background-color: whitesmoke;*/
+
+    /*margin: 5px;*/
+    /*padding: 5px;*/
+}
+
+
+/* SUBEVENT */
+.subEvent {
+    /*height: 80px;*/
+    /*background-color: red;*/
+    margin-bottom: 1.5em;
+}
+
+.subEvent p,.singleEvent p  {
+    margin: 0;
+    margin-right: 5px;
+}
+
+p.locationPara {
+    font-weight: bold;
+    float: left;
+    /*background-color: turquoise;*/
+}
+
+p.speakerPara {
+    font-style: italic;
+    float: right;
+    /*background-color: blue;*/
+}
+
+p.titlePara {
+    /*float: left;*/
+    /*background-color: green;*/
+    color: #505050;
+}
+
+
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.footer {
+    color: #404040;
+    padding: 0px 4px 6px 10px;
+    border-radius: 10px 0 0 0;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #00000040;
+    font-weight: lighter;
+}
+
+.footer .kantega-logo {
+    height: 1.5em;
+    bottom: -0.5em;
+    left: -0.4em;
+    position:relative;
+    margin-right: -1em;
+}
+
+.marginLeft {
+    margin-right: 2em;
+}
+
+.openSpaceContent {
+    width: 350px;
+    /*background-color: red;*/
+}
