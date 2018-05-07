@@ -6,7 +6,7 @@
   "devDependencies": {
     "enzyme": "3.1.0",
     "enzyme-adapter-react-16": "1.0.1",
-    "react-scripts": "1.0.14",
+    "react-scripts": "1.1.4",
     "react-test-renderer": "16.0.0"
   },
   "dependencies": {
