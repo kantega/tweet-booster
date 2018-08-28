@@ -13,13 +13,13 @@
     "babel-core": "6.26.3",
     "babel-preset-es2015": "6.24.1",
     "babel-preset-stage-0": "6.24.1",
-    "express": "4.13.3",
+    "express": "4.16.3",
     "fs": "0.0.2",
-    "node-fetch": "^2.1.1",
+    "node-fetch": "^2.2.0",
     "react-interval": "^2.0.2",
-    "socket.io": "^1.7.3",
+    "socket.io": "2.1.1",
     "sql.js": "0.3.2",
-    "twit": "^2.2.9"
+    "twit": "^2.2.11"
   },
   "scripts": {
     "start-dev": "concurrently \"npm run server\" \"npm run client\"",
